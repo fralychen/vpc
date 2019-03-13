@@ -9,7 +9,18 @@ Linux组播工具主要应用于阿里云VPC网络和经典网络环境内。组
 ```
 
 #rpm -qa | grep kernel-devel-`uname -r`
+
 #rpm -qa | grep rpm-build
+
+```
+
+反馈为以下则表示为安装成功
+```
+#rpm -qa | grep kernel-devel-`uname -r`
+kernel-devel-3.10.0-957.5.1.el7.x86_64   #反馈信息即为安装成功
+
+#rpm -qa | grep rpm-build
+rpm-build-4.11.3-35.el7.x86_64   #反馈以下信息则为安装成功
 ```
 
 如果尚未安装，运行以下命令进行安装：
